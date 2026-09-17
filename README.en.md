@@ -41,4 +41,4 @@ The full guide is currently in Turkish:
 - [Engineering case study](docs/portfolio-case-study.md)
 - [Validation and roadmap](docs/validation.md)
 
-Actual local login/setup screenshots appear in the [main README](README.md). No hosted interactive demo or demo video is available yet. Contact [Ertan Soyalp](https://github.com/Ertanso) for a walkthrough or pilot discussion. Source code, deployment archives and activation material are private. All rights reserved; [LICENSE](LICENSE).
+The [visual tour](docs/visual-tour.md) includes 18 actual browser captures using synthetic laboratory data, a [silent MP4 walkthrough](media/netconfigguard-laboratory-tour.mp4) and a [sample report PDF](media/netconfigguard-laboratory-report.pdf). Capture uses an alpha-based development branch with governance-view fixes, not the unchanged initial release archive. No hosted interactive demo is available. Contact [Ertan Soyalp](https://github.com/Ertanso) for a walkthrough or pilot discussion. Source code, deployment archives and activation material are private. All rights reserved; [LICENSE](LICENSE).

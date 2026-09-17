@@ -1,6 +1,6 @@
 # Arayüz ve modül rehberi
 
-Bu rehber uygulamadaki sayfa ve sekmeleri kaynak incelemesine dayanarak açıklar. Public depodaki iki ekran görüntüsü yalnızca giriş ve ilk kurulumdur; diğer modüller için görüntü veya video henüz eklenmemiştir.
+Bu rehber uygulamadaki sayfa ve sekmeleri kaynak incelemesine dayanarak açıklar. Public depoda giriş/ilk kurulum görüntülerine ek olarak dolu bir sentetik laboratuvar senaryosundan 18 ekran kaydı, tur videosu ve örnek rapor bulunur. [Açıklamalı görsel turu](visual-tour.md) izleyebilirsiniz.
 
 ## Ana sayfalar
 

@@ -6,7 +6,7 @@ NetConfigGuard, farklı üreticilerin yapılandırma verilerini toplayıp sürü
 
 **Sürüm:** `0.3.0-alpha.1` · **Model:** ticari uygulama, private kaynak · **Bu depo:** public ürün ve mühendislik anlatımı
 
-[English overview](README.en.md) · [Uçtan uca kullanıcı yolculuğu](docs/user-journey.md) · [Doğrulama kapsamı](docs/validation.md) · [İletişim](#demo-ve-iletişim)
+[Görsel ürün turu](docs/visual-tour.md) · [English overview](README.en.md) · [Uçtan uca kullanıcı yolculuğu](docs/user-journey.md) · [Doğrulama kapsamı](docs/validation.md) · [İletişim](#demo-ve-iletişim)
 
 ## Hangi problemi çözüyor?
 
@@ -112,15 +112,45 @@ Job başarısı snapshot toplandığını gösterebilir; downstream bulgu/uyumlu
 
 ## Gerçek arayüz
 
-Görüntüler izole yerel ilk kurulum ortamından alınmıştır. Müşteri verisi veya uydurulmuş cihaz/bulgu içermez. Ekrandaki yerel hesap geliştirme kurulumuna aittir; public demo hesabı değildir. Henüz dolu analiz ekranları veya demo videosu yayımlanmamıştır.
+**18 yeni ekran kaydı, sessiz tur videosu ve örnek PDF raporu.** Aşağıdaki görseller çalışan uygulamadan yakalandı. Dört cihaz ve altı snapshot içeren sentetik laboratuvar senaryosunun sonuçlarını uygulamanın kendi analiz hattı üretti; canlı cihaz/müşteri doğrulaması değildir.
 
-### Giriş
+Kayıt, alpha tabanına eklenen `fix/showcase-governance-views` düzeltme dalından alındı. Üstteki laboratuvar şeridi kayıt açıklamasıdır. Ekranlardaki sayılar veya bulgular elle değiştirilmedi.
+
+[18 ekranı açıklamalarıyla incele →](docs/visual-tour.md) · [Tur videosu (MP4) →](media/netconfigguard-laboratory-tour.mp4) · [Örnek rapor (PDF) →](media/netconfigguard-laboratory-report.pdf)
+
+### Operasyon kontrol paneli
+
+Cihazların değişim riski ile mevcut duruş riski birlikte izlenir; değerlendirilmemiş kayıtlar ayrı gösterilir.
+
+![Kontrol paneli — gerçek uygulama, sentetik laboratuvar verisi](images/gallery/01-dashboard.png)
+
+### Cihaz genel bakış
+
+Aynı cihazdaki değişiklik bulguları, kontrol sonuçları, baseline posture ve geçmiş değerlendirme bağlamı.
+
+![Cihaz genel bakışı — laboratuvar örneği](images/gallery/03-device-overview.png)
+
+### Yazdırılabilir rapor
+
+Uygulamanın HTML cihaz raporu tarayıcı üzerinden PDF'e dönüştürüldü. Dokuz bulgu, kontrol ve risk assessment içeren örnek indirilebilir.
+
+<details>
+<summary>Örnek raporun tam ekranını aç</summary>
+
+![Yazdırılabilir rapor — laboratuvar örneği](images/gallery/18-printable-report.png)
+
+</details>
+
+<details>
+<summary>Giriş ve ilk kurulum ekranları</summary>
+
+Bu iki ilk kurulum görüntüsü önceki izole boş ortamdan alınmıştır. Ekrandaki yerel hesap public demo hesabı değildir.
 
 ![Gerçek yerel giriş ekranı](images/login.png)
 
-### İlk kurulum
-
 ![Gerçek yerel kurulum sihirbazı](images/first-run.png)
+
+</details>
 
 ## Neler doğrulandı, neler sırada?
 
@@ -142,6 +172,7 @@ Bu kavramsal senaryodur; canlı cihaz çıktısı, ürün benchmark'ı veya otom
 
 | Okumak istediğin | Belge |
 | --- | --- |
+| Açıklamalı ekranlar, video ve PDF | [Görsel ürün turu](docs/visual-tour.md) |
 | Ürün problemi ve kavramları | [Ürün yaklaşımı](docs/product-overview.md) |
 | Kurulumdan takip sürecine | [Kullanıcı yolculuğu](docs/user-journey.md) |
 | Ekranların işlevleri | [Arayüz rehberi](docs/interface-guide.md) |

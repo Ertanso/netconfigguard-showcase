@@ -1,0 +1,126 @@
+{
+  "capture_date": "2026-09-17",
+  "data_type": "synthetic laboratory input / actual application output",
+  "implementation_commit": "6e087e1",
+  "video_duration_seconds": 39.32,
+  "assets": [
+    {
+      "file": "images/gallery/01-dashboard.png",
+      "width": 1920,
+      "height": 1229,
+      "sha256": "c0cb50a1587ab73cc13e95e3ef8ad1c4bd170bb2d4f9d749c5ebfb91b3acdfd5"
+    },
+    {
+      "file": "images/gallery/02-inventory.png",
+      "width": 1920,
+      "height": 1122,
+      "sha256": "d2d47d55e6e6551f2d6acf9f2d598342dadd2a6d3c05403c2643d2a1bca2a489"
+    },
+    {
+      "file": "images/gallery/03-device-overview.png",
+      "width": 1920,
+      "height": 1122,
+      "sha256": "b789007b7747ff88a28ffc36591151337cdcca8a73bd62a797ee6018b29d7a12"
+    },
+    {
+      "file": "images/gallery/04-snapshots.png",
+      "width": 1920,
+      "height": 1726,
+      "sha256": "b2e8b8232d5a421e3109374a64b6e2e0a8aaa8694d2fb05a80a1d89acf99b7ee"
+    },
+    {
+      "file": "images/gallery/05-findings.png",
+      "width": 1920,
+      "height": 1832,
+      "sha256": "5e554dfb698d5af519abca973ccf4e9ed98a14fcff79223f32fd1bb32231e225"
+    },
+    {
+      "file": "images/gallery/06-tickets.png",
+      "width": 1920,
+      "height": 1464,
+      "sha256": "62eeb16452c47bff7b71270708e913d610d98c91e8c24f9423170869c095b16c"
+    },
+    {
+      "file": "images/gallery/07-static-audit.png",
+      "width": 1920,
+      "height": 2544,
+      "sha256": "0c33aeec391a449ce6a3d29721518b3da5561c358cba602758be84b391bfc44c"
+    },
+    {
+      "file": "images/gallery/08-change-risk.png",
+      "width": 1920,
+      "height": 1542,
+      "sha256": "da691bc265c821e571afd193ebec6fca7c8c350c4cafeef2abbeccb2b552a073"
+    },
+    {
+      "file": "images/gallery/09-compliance.png",
+      "width": 1920,
+      "height": 1728,
+      "sha256": "b431ddbcbe2c2230c01f8870684e56f2ea4c1296f95d248b3eec3ba745cc0a75"
+    },
+    {
+      "file": "images/gallery/10-reports.png",
+      "width": 1920,
+      "height": 1528,
+      "sha256": "0dbe44368bd3afec85f93c174752168ab5d311e83f42bdeaeeb8b79918b595cb"
+    },
+    {
+      "file": "images/gallery/11-audit.png",
+      "width": 1920,
+      "height": 1122,
+      "sha256": "6c0e34b9feaba95bf19f1dd0fde67e15a38ecfdf75f4e31cc2d74e09734bc4f1"
+    },
+    {
+      "file": "images/gallery/12-policies.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e30829c12f04789dee09c04088be8c3f5b59f02a54d06d69d02ea4fa77ed454f"
+    },
+    {
+      "file": "images/gallery/13-router-audit.png",
+      "width": 1920,
+      "height": 3138,
+      "sha256": "63e141aa1da9c8048b06204b0191009194f798cc2a3c61729ae8a484f711bf63"
+    },
+    {
+      "file": "images/gallery/14-no-snapshot.png",
+      "width": 1920,
+      "height": 1122,
+      "sha256": "f26c97efff148511ea2000b983a14de41e64b25a36b325d0f47f32ab8de06197"
+    },
+    {
+      "file": "images/gallery/15-raw-compare.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0c6db8decc9ccb1f8a50b8a50a2431b3970863c381eb4710763ff4251ce8e023"
+    },
+    {
+      "file": "images/gallery/16-semantic-compare.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b88fa6a78b240b6ef64e54f3150965d8f82a46a1b59e540e9b8bbf64738bc8f7"
+    },
+    {
+      "file": "images/gallery/17-finding-evidence.png",
+      "width": 1920,
+      "height": 2011,
+      "sha256": "2026f78a61a9bb5718751b2badcb420d562eea6ef297107dc2dbb6cca2325a6f"
+    },
+    {
+      "file": "images/gallery/18-printable-report.png",
+      "width": 1440,
+      "height": 2613,
+      "sha256": "8020a72d98d5e5e2465d7bbfbe8ab9a70eeb63e56084cf9c0abdc82b5bfaa942"
+    },
+    {
+      "file": "media/netconfigguard-laboratory-report.pdf",
+      "bytes": 240540,
+      "sha256": "946b6a3157582e7edb88acc51d9fe7684fd2d8d2326fbe2fd012c2b7f0900bf0"
+    },
+    {
+      "file": "media/netconfigguard-laboratory-tour.mp4",
+      "bytes": 3094137,
+      "sha256": "a4bf3492138ea5607e435063f8d08a1094358bef8adf48e21d47c84f081ec2fb"
+    }
+  ]
+}

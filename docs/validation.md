@@ -13,7 +13,7 @@ Evidence snapshot: **2026-09-17**, alpha **0.3.0-alpha.1**. Results below refer 
 | Recovery | PostgreSQL backup restored into a separate disposable database |
 | Secrets | Tracked source and Git history scans; synthetic historical findings reviewed |
 | Dependency scanning | No affected application call paths reported in the recorded govulncheck runs |
-| Interface | Real local login/setup screenshots, without invented devices or findings |
+| Interface | Real local login/setup screenshots; additionally, 18 captures from actual application output using explicitly labeled synthetic laboratory data |
 
 ## Limits
 
@@ -31,6 +31,12 @@ Evidence snapshot: **2026-09-17**, alpha **0.3.0-alpha.1**. Results below refer 
 2. Expand target platform validation and measure performance at a declared workload.
 3. Arrange an independent security assessment and address its findings.
 4. Run a scoped pilot with explicit acceptance and recovery criteria.
-5. Add a recorded walkthrough using clearly labeled laboratory data.
+5. Extend the recorded synthetic laboratory walkthrough with verified live-device evidence when available.
 
 No dates, pilot customers or benchmark results are claimed before evidence exists.
+
+## Visual laboratory capture — 2026-09-17
+
+A separate isolated environment used four synthetic devices and six API-uploaded snapshots. Eighteen screenshots, a silent browser tour and a printable report demonstrate actual application output from private commit `6e087e1`. This development branch fixes bulk-read authorization/tenant checks and overview history queries; screenshots are not a claim that the original alpha archive already includes those fixes.
+
+Auth race tests cover same-tenant read access for viewer/operator/admin, cross-tenant rejection, unauthenticated rejection and unknown POST denial. API compilation and frontend production build passed. The browser capture exercises the documented screens; the no-snapshot device intentionally produces a 409 static-audit response. See [visual tour](visual-tour.md).

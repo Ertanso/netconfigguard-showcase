@@ -38,3 +38,9 @@ CI, unit/race, zorunlu DB integration, Helm render ve deployment smoke sonuçlar
 Performans artışı, müşteri kazanımı veya operasyon maliyeti azalmasına ilişkin ölçüm yayımlanmamıştır. Bunlar pilotta ölçülecek çıktılardır.
 
 [Ana sayfa](../README.md) · [Doğrulama](validation.md)
+
+## Görsel senaryonun hazırlanması
+
+API üzerinden dört laboratuvar cihazı kaydedildi, üç cihaza toplam altı sentetik snapshot yüklendi. Uygulama kendi bulgu, kontrol ve risk verisini üretti; browser capture bu veriyi gerçek arayüzde kaydetti. Capture sırasında bulunan dashboard yetki ve history lineage sorunları ayrı kaynak dalında düzeltildi, tenant yetkileri race testleriyle doğrulandı. Sonuçlar UI üzerinden yeniden yakalandı; veri boşlukları görsel düzenlemeyle kapatılmadı.
+
+[Görsel ürün turu](visual-tour.md)
