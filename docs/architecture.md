@@ -1,35 +1,52 @@
-# Architecture overview
+# Architecture and implementation boundaries
 
-NetConfigGuard separates domain models, application use cases, vendor parsing, persistence and transport. A Go API serves a React/TypeScript dashboard; an asynchronous worker handles collection and analysis. PostgreSQL stores application data and Redis supports queue/cache workflows.
+The Go API serves the React/TypeScript dashboard. Application use cases depend on interfaces; PostgreSQL adapters implement persistence. The worker processes persisted collection jobs and invokes applicable vendor analysis. Redis is a supporting dependency, not evidence of a Redis-only job queue.
 
 ```mermaid
 flowchart TB
-    UI[React / TypeScript] --> API[Go API]
+    UI[React / TypeScript] --> API[Go HTTP API]
     API --> APP[Application use cases]
-    APP --> DOMAIN[Domain models]
+    APP --> DOMAIN[Pure domain models]
     APP --> PG[(PostgreSQL)]
-    APP --> REDIS[(Redis)]
-    REDIS --> WORKER[Go worker]
-    SOURCES[Vendor configuration sources] --> WORKER
-    WORKER --> PARSE[Vendor parsing and normalization]
-    PARSE --> ANALYSIS[Semantic diff / static posture]
-    ANALYSIS --> PG
+    APP -. Supporting services .-> REDIS[(Redis)]
+    W[Go worker] --> PG
+    W --> COL[Vendor collector]
+    SOURCE[Device / configuration source] --> COL
+    COL --> PARSE[Parser and normalizer]
+    PARSE --> DIFF[Semantic diff]
+    PARSE --> STATIC[Static posture]
+    DIFF --> GOV[Findings / compliance / change risk]
+    STATIC --> BASE[Baseline risk]
+    GOV --> PG
+    BASE --> PG
     API -. Telemetry .-> OBS[Prometheus / OpenTelemetry]
-    WORKER -. Telemetry .-> OBS
+    W -. Telemetry .-> OBS
 ```
 
-## Design choices
+## Layers
 
-- Snapshot history makes configuration changes inspectable over time.
-- Semantic analysis distinguishes meaningful changes from raw text differences.
-- Static posture analysis can evaluate a configuration without a prior snapshot.
-- Findings carry evidence and framework references; an unevaluated result is not represented as success.
-- Vendor contracts separate collector, parser, normalizer, rule pack and capability description; catalog membership does not imply equal implementation depth.
-- Optional AI explains analysis results and remains advisory.
-- Offline installation and local license verification support environments with restricted connectivity.
+| Boundary | Responsibility |
+| --- | --- |
+| Domain | Models and shared concepts without I/O |
+| Application | Tenant-aware use cases and consumer-defined interfaces |
+| Vendor parsing | Supported raw formats, semantic objects and normalization |
+| Persistence | PostgreSQL implementation of repository contracts |
+| HTTP | Authentication/request context, handlers and response mapping |
+| Worker | Collection lifecycle and applicable governance materialization |
+| Web | Querying and presenting application data with device/snapshot context |
 
-## Deployment and access
+## Why these boundaries matter
 
-Docker/Compose and Helm deployment paths exist. Authentication includes JWT, API keys, role-based access, MFA/TOTP and configured OIDC. Device credentials are encrypted at rest. Tenant context is enforced in application workflows; this statement is not an independent security audit.
+Snapshot storage is distinct from collection execution. Collection completion is distinct from downstream analysis persistence. Findings, control evaluations and risk remain separate models, with lineage linking them to source snapshots. This lets operators inspect missing/degraded results without interpreting collection success as complete governance evaluation.
 
-Production exposure requires deployment-specific HTTPS and restricted metrics access. This showcase omits implementation files, internal endpoints and operational credentials.
+Vendor onboarding separates collector, parser, normalizer, rule pack and capability descriptor. A generator assists onboarding, but does not prove the resulting integration works on live hardware.
+
+Static posture does not need a previous snapshot; semantic change analysis does. AI helps explain results and does not replace deterministic rules or risk mapping.
+
+## Security and deployment context
+
+JWT/API key, RBAC, MFA/TOTP and configured OIDC paths exist. Device credentials use AES-256-GCM at rest and product activation is verified locally with Ed25519. These implementation properties are not an independent security certification.
+
+Docker/Compose, Helm and offline packaging support deployment. Production exposure needs HTTPS and restricted metrics access. The tested offline target is linux/arm64; live-device and production-scale evidence remain pending.
+
+[User journey](user-journey.md) · [Operations](deployment-and-operations.md) · [Engineering case study](portfolio-case-study.md)
