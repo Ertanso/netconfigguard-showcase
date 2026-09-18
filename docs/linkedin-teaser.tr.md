@@ -6,34 +6,34 @@ Kısa tanıtım mevcut yapılandırma analiziyle gelecek platform vizyonunu ayı
 
 [Videoyu aç](../media/netconfigguard-linkedin-teaser.tr.mp4) · [Altyazı](../media/netconfigguard-linkedin-teaser.tr.srt)
 
-## 00:00 — Her şey çalışıyor. Peki, ne değişti?
+## 00:00 — Güvenlik ürünleriniz çalışıyor. Peki, sizi hâlâ koruyor mu?
 
-Her şey çalışıyor. Peki, son yapılandırma değişikliği neyi açtı? Çalışır durumda olmak, güvenli olmak demek değil.
+Güvenlik ürünleriniz çalışıyor. Peki, korumaları gereken sınırlar hâlâ yerinde mi? Bir erişim kuralı genişlediğinde, hizmet devam eder. Ama koruma aynı kalmayabilir.
 
-## 00:11 — Bir ayar. Bir güvenlik etkisi.
+## 00:15 — Çalışmak başka. Doğru yapılandırılmak başka.
 
-Bu soru yalnızca güvenlik duvarları için değil. Yapılandırılabilir her sistem için önemli: erişim, yetki, kayıt tutma.
+Bir yetki genişler, bir kayıt ayarı kapanır. Ürün çalışmaya devam ederken güvenlik duruşu değişebilir. Bu soru, yapılandırılabilir her sistem için önemlidir.
 
-## 00:21 — Satır farkından anlamlı değişikliğe.
+## 00:29 — Satır farkından anlamlı değişikliğe.
 
 Bu laboratuvar örneğinde ağ maskesi değişiyor; adres kapsamı genişliyor. Net Config Guard, değişikliği nesne ve alan düzeyinde gösteriyor.
 
-## 00:32 — Bir uyarıdan fazlası: incelenebilir kanıt.
+## 00:40 — Bir uyarıdan fazlası: incelenebilir kanıt.
 
 Bulgu ayrıntısı, önceki ve sonraki değerleri kanıtıyla sunuyor. Amaç, gözden kaçabilecek değişikliği incelemeye açmak; kararın dayanağını görünür kılmak.
 
-## 00:45 — Ne değişti? Nereden başlamalıyız?
+## 00:52 — Ne değişti? Nereden başlamalıyız?
 
 Değişim riski ve mevcut güvenlik duruşu ayrı izleniyor. Bulgular, kontroller ve raporlar, incelemeyi ortak bir akışta buluşturuyor.
 
-## 00:55 — İşlem izini kaybetmeden.
+## 01:03 — İşlem izini kaybetmeden.
 
 Uygulama işlemleri bugün kullanıcı ve zaman bağlamında izleniyor. Cihaz değişikliklerini yöneticiye anında taşıyan uçtan uca görünürlük ise sonraki hedef.
 
-## 01:07 — Tek panel. Daha az kör nokta.
+## 01:15 — Tek panel. Daha az kör nokta.
 
 Vizyon: yapılandırılabilir cihaz ve sistemleri tek panelden yönetmek. Kim, nerede, ne değiştirdi? Yöneticiyi anında bilgilendirmek ve kör noktaları azaltmak.
 
-## 01:21 — Sistem çalışıyor. Güvenlik duruşu aynı mı?
+## 01:29 — Çalıştığını biliyorsunuz. Neyi değiştirdiğini biliyor musunuz?
 
-Bugün ağ cihazlarıyla başlayan alpha platform. Yarın daha geniş yapılandırma kapsamı. Sizin ortamınızda hangi değişiklik gözden kaçmamalı? Ayrıntılı demo ve kapsam, tanıtım reposunda.
+Net Config Guard, gözden kaçabilecek yapılandırma risklerini kanıtlarıyla incelemeye açıyor. Bugün desteklenen ağ cihazlarıyla başlayan alpha platform; hedef daha geniş kapsam. Sizin ortamınızda hangi değişiklik gözden kaçmamalı?

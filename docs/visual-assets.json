@@ -144,18 +144,18 @@
     },
     {
       "file": "media/netconfigguard-linkedin-teaser.tr.mp4",
-      "bytes": 4231041,
-      "sha256": "cce2060f52caa66a3caa4de30c091a717a5dc47afe215d8133d2524515c9ba9b"
+      "bytes": 4562408,
+      "sha256": "6b3fe728aaa7e522a7f2fda6ddfcd2beacbbc84da98ee53a38f174494f5d1028"
     },
     {
       "file": "media/netconfigguard-linkedin-teaser.tr.srt",
-      "bytes": 1946,
-      "sha256": "078a57b8b9f45cbd1a88e3e95f6dfe9f9e506562d4eca7eac5351c83fa324b5c"
+      "bytes": 2120,
+      "sha256": "8add285f7bc1ec2ff43dd013c57b5c0c85e9a8cc7e41901c2d4ebf5dc5f4d253"
     },
     {
       "file": "images/linkedin-cover.tr.png",
-      "bytes": 398909,
-      "sha256": "dc9e13c1c7eeb642ab191726e05101bd158c84d135a52c27765cbdfe55443e17"
+      "bytes": 407003,
+      "sha256": "03235487a5eeb6266ab2d259793acb2f170fdd649e74035f3aa673e0aee49ba2"
     }
   ],
   "video_edit_date": "2026-09-18",
@@ -181,7 +181,7 @@
     "type": "synthetic narration with actual application screenshot views"
   },
   "linkedin_teaser": {
-    "duration_seconds": 97.33333333333333,
+    "duration_seconds": 106.46666666666665,
     "width": 1080,
     "height": 1350,
     "fps": 30,

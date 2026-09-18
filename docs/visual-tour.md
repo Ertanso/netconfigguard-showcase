@@ -6,7 +6,7 @@
 
 ## LinkedIn kısa tanıtımı
 
-[97 saniyelik tanıtım](../media/netconfigguard-linkedin-teaser.tr.mp4), yapılandırma güvenliği sorusuyla açılır; gerçek semantik fark, bulgu kanıtı, risk ve uygulama işlem izini gösterir. Son bölüm gelecekte hedeflenen tek panel yönetimi, cihaz değişikliğini kişiye bağlama ve anlık yönetici bildirimini kavramsal diyagramla anlatır. Bu hedefler mevcut özellik olarak sunulmaz. Format 1080×1350, Türkçe Ahmet Neural sesi ve gömülü altyazıdır. [Bölümler](linkedin-teaser.tr.md) · [Kapak](../images/linkedin-cover.tr.png).
+[106 saniyelik tanıtım](../media/netconfigguard-linkedin-teaser.tr.mp4), yapılandırma güvenliği sorusuyla açılır; gerçek semantik fark, bulgu kanıtı, risk ve uygulama işlem izini gösterir. Son bölüm gelecekte hedeflenen tek panel yönetimi, cihaz değişikliğini kişiye bağlama ve anlık yönetici bildirimini kavramsal diyagramla anlatır. Bu hedefler mevcut özellik olarak sunulmaz. Format 1080×1350, Türkçe Ahmet Neural sesi ve gömülü altyazıdır. [Bölümler](linkedin-teaser.tr.md) · [Kapak](../images/linkedin-cover.tr.png).
 
 ## Ayrıntılı ürün demosu
 
