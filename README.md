@@ -116,6 +116,10 @@ Job başarısı snapshot toplandığını gösterebilir; downstream bulgu/uyumlu
 
 Kayıt, alpha tabanına eklenen `fix/showcase-governance-views` düzeltme dalından alındı. Üstteki laboratuvar şeridi kayıt açıklamasıdır. Ekranlardaki sayılar veya bulgular elle değiştirilmedi.
 
+**Ayrıntılı anlatımlı demo:** [Türkçe ürün videosu (~11 dk 36 sn)](media/netconfigguard-product-walkthrough.tr.mp4) · [Bölümler ve anlatım metni](docs/product-walkthrough.tr.md)
+
+Her ekranın işlevi, inceleme gerekçesi ve mevcut kapsamı daha doğal Türkçe sentetik sesle anlatılır.
+
 [18 ekranı açıklamalarıyla incele →](docs/visual-tour.md) · [Türkçe seslendirmeli tur (MP4) →](media/netconfigguard-laboratory-tour-narrated.tr.mp4) · [Sessiz tur (MP4) →](media/netconfigguard-laboratory-tour.mp4) · [Örnek rapor (PDF) →](media/netconfigguard-laboratory-report.pdf)
 
 ### Operasyon kontrol paneli

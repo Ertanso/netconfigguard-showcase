@@ -4,6 +4,12 @@
 
 [Türkçe seslendirmeli tur](../media/netconfigguard-laboratory-tour-narrated.tr.mp4) · [Sessiz tur](../media/netconfigguard-laboratory-tour.mp4) · [Örnek cihaz raporu (PDF)](../media/netconfigguard-laboratory-report.pdf) · [Ana sayfa](../README.md)
 
+## Ayrıntılı ürün demosu
+
+[Yaklaşık 11 dakika 36 saniyelik Türkçe anlatımlı demo](../media/netconfigguard-product-walkthrough.tr.mp4), her ekranın ne gösterdiğini ve inceleme sürecinde neden kullanıldığını açıklar. Ahmet Neural sentetik sesi kullanılır; gerçek bir kişinin sesi klonlanmaz. Uzun ekranlarda sabit kadrajdan ilgili ayrıntıya geçilir. [Bölüm zamanları ve tam metin](product-walkthrough.tr.md) · [Altyazı](../media/netconfigguard-product-walkthrough.tr.srt).
+
+Risk anlatımı desteklenen analizlerin kapsamıyla sınırlıdır; tüm riskleri veya herkesten önce risk bulma garantisi verilmez.
+
 ## Düzenlenmiş video — 2026-09-18
 
 Video 100 saniyelik, sessiz ve açıklamalı bir ürün turudur. Gerçek uygulama ekran görüntülerinden hazırlanmıştır; kesintisiz bir etkileşim kaydı değildir. Sabit 1920×1080 kadraj, ekran başına beş saniye, kısa açıklamalar ve yumuşak geçişler kullanılır. Uzun sayfalarda ilgili görünüm gösterilir; tam ekran görüntüleri aşağıdaki galeridedir. [Video bölümleri ve zamanları](video-chapters.md).

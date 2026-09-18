@@ -131,6 +131,16 @@
       "file": "media/netconfigguard-laboratory-tour.tr.srt",
       "bytes": 2029,
       "sha256": "d6d75fcdd99882af54caaecb1abfaa7c543279526943e3f7867b437a7bccb5e2"
+    },
+    {
+      "file": "media/netconfigguard-product-walkthrough.tr.mp4",
+      "bytes": 27755159,
+      "sha256": "43444d020e8feacb0cae0940e31d34a7ef1d80a8c7533ce0667468703df6f9ce"
+    },
+    {
+      "file": "media/netconfigguard-product-walkthrough.tr.srt",
+      "bytes": 13112,
+      "sha256": "7781f8778cc654e1e1783f645037ccc0c0320dd3447cb389d94968e48d996028"
     }
   ],
   "video_edit_date": "2026-09-18",
@@ -143,5 +153,16 @@
     "voice": "macOS Yelda text-to-speech",
     "duration_seconds": 100,
     "type": "synthetic narration synchronized to existing chapters"
+  },
+  "detailed_walkthrough": {
+    "duration_seconds": 695.5666666666666,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "voice": "tr-TR-AhmetNeural",
+    "rate": "-5%",
+    "chapters": 20,
+    "subtitle_sentences": 107,
+    "type": "synthetic narration with actual application screenshot views"
   }
 }
