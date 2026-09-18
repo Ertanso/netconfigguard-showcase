@@ -141,6 +141,21 @@
       "file": "media/netconfigguard-product-walkthrough.tr.srt",
       "bytes": 13112,
       "sha256": "7781f8778cc654e1e1783f645037ccc0c0320dd3447cb389d94968e48d996028"
+    },
+    {
+      "file": "media/netconfigguard-linkedin-teaser.tr.mp4",
+      "bytes": 4231041,
+      "sha256": "cce2060f52caa66a3caa4de30c091a717a5dc47afe215d8133d2524515c9ba9b"
+    },
+    {
+      "file": "media/netconfigguard-linkedin-teaser.tr.srt",
+      "bytes": 1946,
+      "sha256": "078a57b8b9f45cbd1a88e3e95f6dfe9f9e506562d4eca7eac5351c83fa324b5c"
+    },
+    {
+      "file": "images/linkedin-cover.tr.png",
+      "bytes": 398909,
+      "sha256": "dc9e13c1c7eeb642ab191726e05101bd158c84d135a52c27765cbdfe55443e17"
     }
   ],
   "video_edit_date": "2026-09-18",
@@ -164,5 +179,15 @@
     "chapters": 20,
     "subtitle_sentences": 107,
     "type": "synthetic narration with actual application screenshot views"
+  },
+  "linkedin_teaser": {
+    "duration_seconds": 97.33333333333333,
+    "width": 1080,
+    "height": 1350,
+    "fps": 30,
+    "voice": "tr-TR-AhmetNeural",
+    "chapters": 8,
+    "burned_in_subtitles": true,
+    "scope": "current supported configuration analysis / separately labelled future unified management vision"
   }
 }

@@ -1,0 +1,79 @@
+1
+00:00:00,450 --> 00:00:02,733
+Her şey çalışıyor.
+
+2
+00:00:02,683 --> 00:00:06,338
+Peki, son yapılandırma değişikliği neyi açtı?
+
+3
+00:00:06,338 --> 00:00:10,207
+Çalışır durumda olmak, güvenli olmak demek değil.
+
+4
+00:00:11,183 --> 00:00:14,919
+Bu soru yalnızca güvenlik duvarları için değil.
+
+5
+00:00:14,869 --> 00:00:20,393
+Yapılandırılabilir her sistem için önemli: erişim, yetki, kayıt tutma.
+
+6
+00:00:21,350 --> 00:00:26,883
+Bu laboratuvar örneğinde ağ maskesi değişiyor; adres kapsamı genişliyor.
+
+7
+00:00:26,833 --> 00:00:31,881
+Net Config Guard, değişikliği nesne ve alan düzeyinde gösteriyor.
+
+8
+00:00:32,850 --> 00:00:37,776
+Bulgu ayrıntısı, önceki ve sonraki değerleri kanıtıyla sunuyor.
+
+9
+00:00:37,726 --> 00:00:44,024
+Amaç, gözden kaçabilecek değişikliği incelemeye açmak; kararın dayanağını görünür kılmak.
+
+10
+00:00:44,983 --> 00:00:49,219
+Değişim riski ve mevcut güvenlik duruşu ayrı izleniyor.
+
+11
+00:00:49,169 --> 00:00:54,800
+Bulgular, kontroller ve raporlar, incelemeyi ortak bir akışta buluşturuyor.
+
+12
+00:00:55,783 --> 00:01:00,698
+Uygulama işlemleri bugün kullanıcı ve zaman bağlamında izleniyor.
+
+13
+00:01:00,648 --> 00:01:06,910
+Cihaz değişikliklerini yöneticiye anında taşıyan uçtan uca görünürlük ise sonraki hedef.
+
+14
+00:01:07,883 --> 00:01:13,131
+Vizyon: yapılandırılabilir cihaz ve sistemleri tek panelden yönetmek.
+
+15
+00:01:13,081 --> 00:01:15,974
+Kim, nerede, ne değiştirdi?
+
+16
+00:01:15,974 --> 00:01:20,629
+Yöneticiyi anında bilgilendirmek ve kör noktaları azaltmak.
+
+17
+00:01:21,617 --> 00:01:25,638
+Bugün ağ cihazlarıyla başlayan alpha platform.
+
+18
+00:01:25,588 --> 00:01:28,862
+Yarın daha geniş yapılandırma kapsamı.
+
+19
+00:01:28,862 --> 00:01:32,969
+Sizin ortamınızda hangi değişiklik gözden kaçmamalı?
+
+20
+00:01:32,969 --> 00:01:36,814
+Ayrıntılı demo ve kapsam, tanıtım reposunda.

@@ -116,6 +116,10 @@ Job başarısı snapshot toplandığını gösterebilir; downstream bulgu/uyumlu
 
 Kayıt, alpha tabanına eklenen `fix/showcase-governance-views` düzeltme dalından alındı. Üstteki laboratuvar şeridi kayıt açıklamasıdır. Ekranlardaki sayılar veya bulgular elle değiştirilmedi.
 
+**Kısa tanıtım:** [97 saniyelik Türkçe video](media/netconfigguard-linkedin-teaser.tr.mp4) · [Bölümler ve kapsam](docs/linkedin-teaser.tr.md) · [Kapak](images/linkedin-cover.tr.png)
+
+Mobil izlemeye uygun 4:5 format ve gömülü Türkçe altyazılarla; mevcut analiz akışı ve tek panelden yönetim vizyonu ayrı gösterilir.
+
 **Ayrıntılı anlatımlı demo:** [Türkçe ürün videosu (~11 dk 36 sn)](media/netconfigguard-product-walkthrough.tr.mp4) · [Bölümler ve anlatım metni](docs/product-walkthrough.tr.md)
 
 Her ekranın işlevi, inceleme gerekçesi ve mevcut kapsamı daha doğal Türkçe sentetik sesle anlatılır.
