@@ -121,11 +121,27 @@
       "file": "media/netconfigguard-laboratory-tour.mp4",
       "bytes": 4185771,
       "sha256": "afd5938af08f7b2f37060ee65211e2458be52f9b0c79dd2caf99f7fdda694fcb"
+    },
+    {
+      "file": "media/netconfigguard-laboratory-tour-narrated.tr.mp4",
+      "bytes": 6089292,
+      "sha256": "125b3a0c6f77621f072035310e71a31c292e5dc18eedb1ae18e4e285f8ed4fc9"
+    },
+    {
+      "file": "media/netconfigguard-laboratory-tour.tr.srt",
+      "bytes": 2029,
+      "sha256": "d6d75fcdd99882af54caaecb1abfaa7c543279526943e3f7867b437a7bccb5e2"
     }
   ],
   "video_edit_date": "2026-09-18",
   "video_type": "captioned tour edited from actual application screenshots",
   "video_width": 1920,
   "video_height": 1080,
-  "video_fps": 30
+  "video_fps": 30,
+  "narration": {
+    "language": "tr-TR",
+    "voice": "macOS Yelda text-to-speech",
+    "duration_seconds": 100,
+    "type": "synthetic narration synchronized to existing chapters"
+  }
 }

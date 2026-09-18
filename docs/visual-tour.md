@@ -2,11 +2,15 @@
 
 **Gerçek çalışan uygulama, sentetik laboratuvar verisi.** Bu galeri müşteri ortamı, canlı cihaz doğrulaması veya üretim referansı değildir. Kayıt: 2026-09-17.
 
-[Tur videosu (MP4)](../media/netconfigguard-laboratory-tour.mp4) · [Örnek cihaz raporu (PDF)](../media/netconfigguard-laboratory-report.pdf) · [Ana sayfa](../README.md)
+[Türkçe seslendirmeli tur](../media/netconfigguard-laboratory-tour-narrated.tr.mp4) · [Sessiz tur](../media/netconfigguard-laboratory-tour.mp4) · [Örnek cihaz raporu (PDF)](../media/netconfigguard-laboratory-report.pdf) · [Ana sayfa](../README.md)
 
 ## Düzenlenmiş video — 2026-09-18
 
 Video 100 saniyelik, sessiz ve açıklamalı bir ürün turudur. Gerçek uygulama ekran görüntülerinden hazırlanmıştır; kesintisiz bir etkileşim kaydı değildir. Sabit 1920×1080 kadraj, ekran başına beş saniye, kısa açıklamalar ve yumuşak geçişler kullanılır. Uzun sayfalarda ilgili görünüm gösterilir; tam ekran görüntüleri aşağıdaki galeridedir. [Video bölümleri ve zamanları](video-chapters.md).
+
+### Türkçe anlatımlı sürüm
+
+Aynı 100 saniyelik ekran turunun Türkçe sentetik seslendirmeli sürümü de bulunur. Her anlatım ilgili beş saniyelik bölümle eşleştirilmiştir. Ses macOS Yelda (tr_TR) sistem sesiyle üretilmiştir; insan anlatımı veya ses klonu değildir. [Anlatım metni](video-narration.tr.md) · [Türkçe altyazı (SRT)](../media/netconfigguard-laboratory-tour.tr.srt).
 
 ## Senaryo
 

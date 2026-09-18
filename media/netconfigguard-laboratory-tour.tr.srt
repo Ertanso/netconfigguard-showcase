@@ -1,0 +1,79 @@
+1
+00:00:00,150 --> 00:00:03,746
+Net Config Guard: yapılandırmadan güvenlik riskine.
+
+2
+00:00:05,150 --> 00:00:09,802
+Kontrol paneli, değişim riskini ve mevcut güvenlik duruşunu ayrı gösteriyor.
+
+3
+00:00:10,150 --> 00:00:14,811
+Envanterde iki güvenlik duvarı, bir yönlendirici ve yeni cihaz bulunuyor.
+
+4
+00:00:15,150 --> 00:00:19,132
+Cihaz görünümü, bulguları ve mevcut riskleri gösteriyor.
+
+5
+00:00:20,150 --> 00:00:24,800
+Geçmiş yapılandırmalar saklanıyor, sürümler karşılaştırılabiliyor.
+
+6
+00:00:25,150 --> 00:00:29,221
+Ham fark, eklenen ve kaldırılan satırları gösteriyor.
+
+7
+00:00:30,150 --> 00:00:34,522
+Semantik fark, değişen nesneleri ve alanları gösteriyor.
+
+8
+00:00:35,150 --> 00:00:38,828
+Önemli değişiklikler güvenlik bulgularına dönüşüyor.
+
+9
+00:00:40,150 --> 00:00:44,788
+Bulgu ayrıntısında değişen değerleri ve düzeltme önerisini görüyoruz.
+
+10
+00:00:45,150 --> 00:00:49,103
+Bildirim adaylarını görüyoruz; bunlar gönderim onayı değil.
+
+11
+00:00:50,150 --> 00:00:54,791
+Statik denetim, mevcut yapılandırmadaki zayıflıkları inceliyor.
+
+12
+00:00:55,150 --> 00:00:59,579
+Değişim riski, bulguların önem seviyeleriyle birlikte sunuluyor.
+
+13
+00:01:00,150 --> 00:01:04,790
+Kontrol sonuçlarını görüyoruz; bunlar sertifikasyon belgesi değil.
+
+14
+00:01:05,150 --> 00:01:09,806
+Raporlama alanı; bulgu, kontrol ve risk sonuçlarını bir araya getiriyor.
+
+15
+00:01:10,150 --> 00:01:13,596
+Uygulama raporu tarayıcıdan belgeye dönüştürülüyor.
+
+16
+00:01:15,150 --> 00:01:19,795
+Denetim izi, yapılan işlemleri kullanıcı ve zaman bağlamıyla gösteriyor.
+
+17
+00:01:20,150 --> 00:01:23,838
+Katalogda politika ve kontrol tanımları inceleniyor.
+
+18
+00:01:25,150 --> 00:01:28,801
+Burada farklı üreticinin statik denetimini görüyoruz.
+
+19
+00:01:30,150 --> 00:01:33,723
+Veri yoksa değerlendirme yok; güvenli sayılmıyor.
+
+20
+00:01:35,150 --> 00:01:39,793
+Bu bir laboratuvar demosu. Teknik kapsam ve örnek rapor tanıtım deposunda.
