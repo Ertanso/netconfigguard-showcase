@@ -134,13 +134,13 @@
     },
     {
       "file": "media/netconfigguard-product-walkthrough.tr.mp4",
-      "bytes": 27755159,
-      "sha256": "43444d020e8feacb0cae0940e31d34a7ef1d80a8c7533ce0667468703df6f9ce"
+      "bytes": 31990442,
+      "sha256": "0c31879f456c22ef989d4d9ce458b017b85e75b89cd9c1b629e9bd14f19487b0"
     },
     {
       "file": "media/netconfigguard-product-walkthrough.tr.srt",
-      "bytes": 13112,
-      "sha256": "7781f8778cc654e1e1783f645037ccc0c0320dd3447cb389d94968e48d996028"
+      "bytes": 13683,
+      "sha256": "5309af424c6d0bd5908571a45e6cc24d5a11903425740b297c5aac7150737173"
     },
     {
       "file": "media/netconfigguard-linkedin-teaser.tr.mp4",
@@ -156,6 +156,11 @@
       "file": "images/linkedin-cover.tr.png",
       "bytes": 407003,
       "sha256": "03235487a5eeb6266ab2d259793acb2f170fdd649e74035f3aa673e0aee49ba2"
+    },
+    {
+      "file": "images/product-walkthrough-cover.tr.png",
+      "bytes": 514831,
+      "sha256": "c0d4595e0588c486d2f4cc156d885944b4b149adb51c1e3f8b9e68c4a834fb0d"
     }
   ],
   "video_edit_date": "2026-09-18",
@@ -170,15 +175,18 @@
     "type": "synthetic narration synchronized to existing chapters"
   },
   "detailed_walkthrough": {
-    "duration_seconds": 695.5666666666666,
+    "duration_seconds": 723.5666666666666,
     "width": 1920,
     "height": 1080,
     "fps": 30,
     "voice": "tr-TR-AhmetNeural",
     "rate": "-5%",
     "chapters": 20,
-    "subtitle_sentences": 107,
-    "type": "synthetic narration with actual application screenshot views"
+    "subtitle_sentences": 113,
+    "type": "synthetic narration with actual application screenshot views",
+    "burned_in_subtitles": true,
+    "background_audio": "original synthesized ambient; low level with automatic speech ducking",
+    "chapter_order": "hook / semantic change / evidence / remaining workflow / platform vision"
   },
   "linkedin_teaser": {
     "duration_seconds": 106.46666666666665,
