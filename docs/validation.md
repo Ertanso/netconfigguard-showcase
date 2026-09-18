@@ -37,6 +37,8 @@ No dates, pilot customers or benchmark results are claimed before evidence exist
 
 ## Visual laboratory capture — 2026-09-17
 
-A separate isolated environment used four synthetic devices and six API-uploaded snapshots. Eighteen screenshots, a silent browser tour and a printable report demonstrate actual application output from private commit `6e087e1`. This development branch fixes bulk-read authorization/tenant checks and overview history queries; screenshots are not a claim that the original alpha archive already includes those fixes.
+A separate isolated environment used four synthetic devices and six API-uploaded snapshots. Eighteen screenshots, an edited, silent screen tour and a printable report demonstrate actual application output from private commit `6e087e1`. The capture branch, subsequently merged into main on 2026-09-17, fixes bulk-read authorization/tenant checks and overview history queries; screenshots are not a claim that the original alpha archive already includes those fixes.
 
 Auth race tests cover same-tenant read access for viewer/operator/admin, cross-tenant rejection, unauthenticated rejection and unknown POST denial. API compilation and frontend production build passed. The browser capture exercises the documented screens; the no-snapshot device intentionally produces a 409 static-audit response. See [visual tour](visual-tour.md).
+
+The revised video (2026-09-18) is edited from the original application screenshots with explanatory titles and fixed 1920×1080 framing, 30 fps and a duration of 100 seconds. It is not a continuous interaction recording. The complete 3,000-frame H.264 export decoded without errors; all 20 scenes were visually reviewed. See [video chapters](video-chapters.md).

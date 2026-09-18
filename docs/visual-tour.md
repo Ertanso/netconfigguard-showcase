@@ -4,6 +4,10 @@
 
 [Tur videosu (MP4)](../media/netconfigguard-laboratory-tour.mp4) · [Örnek cihaz raporu (PDF)](../media/netconfigguard-laboratory-report.pdf) · [Ana sayfa](../README.md)
 
+## Düzenlenmiş video — 2026-09-18
+
+Video 100 saniyelik, sessiz ve açıklamalı bir ürün turudur. Gerçek uygulama ekran görüntülerinden hazırlanmıştır; kesintisiz bir etkileşim kaydı değildir. Sabit 1920×1080 kadraj, ekran başına beş saniye, kısa açıklamalar ve yumuşak geçişler kullanılır. Uzun sayfalarda ilgili görünüm gösterilir; tam ekran görüntüleri aşağıdaki galeridedir. [Video bölümleri ve zamanları](video-chapters.md).
+
 ## Senaryo
 
 HQ firewall'da yönetim erişimi ve politika kapsamı genişletilir; logging/timeout ayarları zayıflatılır. Branch firewall'da bir address object değişir. Cisco router ayrı static posture denetimiyle incelenir. Dördüncü cihazda henüz veri bulunmaz. Böylece dolu sonuçlar kadar değerlendirilmemiş durum da gösterilir.
@@ -13,7 +17,7 @@ Dört kayıt oluşturuldu ve üç cihaza toplam altı snapshot API üzerinden y�
 ## Kayıt ve sürüm bağlamı
 
 - Uygulama tabanı 0.3.0-alpha.1; kayıt için kullanılan private kaynak commit'i `6e087e1` (`fix/showcase-governance-views`).
-- Bu dal dashboard bulk okuma yetki/tenant eşlemesini, geçmiş sorgularının lineage parametresini ve iki yanıltıcı durum metnini düzeltir. Görseller bu geliştirme dalını gösterir; ilk alpha arşivinin birebir ekran kaydı olduğu iddia edilmez.
+- Bu dal dashboard bulk okuma yetki/tenant eşlemesini, geçmiş sorgularının lineage parametresini ve iki yanıltıcı durum metnini düzeltir. Bu düzeltmeler 2026-09-17 tarihinde `main` dalına merge edildi (`b753a68`). Görseller kayıt anındaki dalı gösterir; ilk alpha arşivinin birebir ekran kaydı olduğu iddia edilmez.
 - Üstteki laboratuvar şeridi kayıt sırasında eklenen açıklama etiketidir; standart ürün navigasyonunun parçası değildir. Analiz sonucu, sayı ve risk verileri değiştirilmedi.
 - Tenant, hesap ve cihaz adları örnektir. Dış alert kanalları ve AI kapalı tutuldu. Kaynak, token, credential ve aktivasyon materyali bu depoda yayımlanmaz.
 - Görseller 1920 px genişlikte tarayıcı kayıtlarıdır; yazdırılabilir rapor 1440 px genişlikte yakalandı. Uzun ekranları tam boy açarak inceleyebilirsiniz.

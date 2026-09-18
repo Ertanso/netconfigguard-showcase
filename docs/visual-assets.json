@@ -2,7 +2,7 @@
   "capture_date": "2026-09-17",
   "data_type": "synthetic laboratory input / actual application output",
   "implementation_commit": "6e087e1",
-  "video_duration_seconds": 39.32,
+  "video_duration_seconds": 100,
   "assets": [
     {
       "file": "images/gallery/01-dashboard.png",
@@ -119,8 +119,13 @@
     },
     {
       "file": "media/netconfigguard-laboratory-tour.mp4",
-      "bytes": 3094137,
-      "sha256": "a4bf3492138ea5607e435063f8d08a1094358bef8adf48e21d47c84f081ec2fb"
+      "bytes": 4185771,
+      "sha256": "afd5938af08f7b2f37060ee65211e2458be52f9b0c79dd2caf99f7fdda694fcb"
     }
-  ]
+  ],
+  "video_edit_date": "2026-09-18",
+  "video_type": "captioned tour edited from actual application screenshots",
+  "video_width": 1920,
+  "video_height": 1080,
+  "video_fps": 30
 }

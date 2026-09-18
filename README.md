@@ -112,7 +112,7 @@ Job başarısı snapshot toplandığını gösterebilir; downstream bulgu/uyumlu
 
 ## Gerçek arayüz
 
-**18 yeni ekran kaydı, sessiz tur videosu ve örnek PDF raporu.** Aşağıdaki görseller çalışan uygulamadan yakalandı. Dört cihaz ve altı snapshot içeren sentetik laboratuvar senaryosunun sonuçlarını uygulamanın kendi analiz hattı üretti; canlı cihaz/müşteri doğrulaması değildir.
+**18 uygulama ekran görüntüsü, 100 saniyelik açıklamalı tur videosu ve örnek PDF raporu.** Aşağıdaki görseller çalışan uygulamadan yakalandı. Dört cihaz ve altı snapshot içeren sentetik laboratuvar senaryosunun sonuçlarını uygulamanın kendi analiz hattı üretti; canlı cihaz/müşteri doğrulaması değildir.
 
 Kayıt, alpha tabanına eklenen `fix/showcase-governance-views` düzeltme dalından alındı. Üstteki laboratuvar şeridi kayıt açıklamasıdır. Ekranlardaki sayılar veya bulgular elle değiştirilmedi.
 
