@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "duration_seconds": 592.0,
+  "duration_seconds": 692.74,
   "width": 1920,
   "height": 1080,
   "fps": 30,
@@ -11,18 +11,21 @@
   "assets": [
     {
       "file": "media/netconfigguard-animated-walkthrough.tr.mp4",
-      "bytes": 27171902,
-      "sha256": "b387424b253d3342392b2ec17dcdb25f370f29f51d25801dd4acaf8af061080d"
+      "bytes": 31760932,
+      "sha256": "707ca774f93f8209369456024eda9f73228dce3865289db94d45fe9f9c3c40a0"
     },
     {
       "file": "media/netconfigguard-animated-walkthrough.tr.srt",
-      "bytes": 13142,
-      "sha256": "ca42c810570a2c9a38d13bab7c9481b3ebea81fc8faf61ef500ed650b97dad5c"
+      "bytes": 15305,
+      "sha256": "1dd9fc0c50378b457713fe49d91a2000c4fc8eea7467931692ffb93563a1ee64"
     },
     {
       "file": "images/netconfigguard-animated-cover.tr.png",
       "bytes": 808242,
       "sha256": "caae72eb26ba89bd4f111b0dab32a4ed3fc7521acb92d8f9431d8460b2f565c5"
     }
-  ]
+  ],
+  "process_explainer_seconds": 100.7,
+  "process_steps": 6,
+  "subtitle_entries": 126
 }
