@@ -120,6 +120,8 @@ Kayıt, alpha tabanına eklenen `fix/showcase-governance-views` düzeltme dalın
 
 Mobil izlemeye uygun 4:5 format ve gömülü Türkçe altyazılarla; mevcut analiz akışı ve tek panelden yönetim vizyonu ayrı gösterilir.
 
+**Animasyonlu uzun demo:** [Türkçe video (9 dk 52 sn)](media/netconfigguard-animated-walkthrough.tr.mp4) · [Bölümler ve kapsam](docs/animated-walkthrough.tr.md) · [Kapak](images/netconfigguard-animated-cover.tr.png)
+
 **Ayrıntılı anlatımlı demo:** [Türkçe ürün videosu (~12 dk 4 sn)](media/netconfigguard-product-walkthrough.tr.mp4) · [Bölümler ve anlatım metni](docs/product-walkthrough.tr.md) · [Video kapağı](images/product-walkthrough-cover.tr.png)
 
 Her ekranın işlevi, inceleme gerekçesi ve mevcut kapsamı daha doğal Türkçe sentetik sesle anlatılır.

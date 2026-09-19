@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-19",
+  "duration_seconds": 592.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "voice": "tr-TR-AhmetNeural",
+  "intro_type": "code-rendered conceptual animation",
+  "current_scope": "supported network-device configurations",
+  "future_vision": "other configurable systems and centralized management",
+  "assets": [
+    {
+      "file": "media/netconfigguard-animated-walkthrough.tr.mp4",
+      "bytes": 27171902,
+      "sha256": "b387424b253d3342392b2ec17dcdb25f370f29f51d25801dd4acaf8af061080d"
+    },
+    {
+      "file": "media/netconfigguard-animated-walkthrough.tr.srt",
+      "bytes": 13142,
+      "sha256": "ca42c810570a2c9a38d13bab7c9481b3ebea81fc8faf61ef500ed650b97dad5c"
+    },
+    {
+      "file": "images/netconfigguard-animated-cover.tr.png",
+      "bytes": 808242,
+      "sha256": "caae72eb26ba89bd4f111b0dab32a4ed3fc7521acb92d8f9431d8460b2f565c5"
+    }
+  ]
+}

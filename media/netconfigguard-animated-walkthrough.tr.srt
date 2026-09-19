@@ -1,0 +1,431 @@
+1
+00:00:00,000 --> 00:00:03,800
+Güvenlik ürünleriniz çalışıyor. Peki, amaçlanan korumayı sağlıyor mu?
+
+2
+00:00:03,800 --> 00:00:08,500
+NetConfigGuard vizyonu: yapılandırılabilir sistemleri tek panelden görmek.
+
+3
+00:00:08,500 --> 00:00:15,000
+Bugün ağ cihazlarıyla başlıyoruz.
+
+4
+00:00:15,381 --> 00:00:18,930
+Semantik karşılaştırma burada devreye giriyor.
+
+5
+00:00:18,887 --> 00:00:23,950
+Desteklenen parser, yapılandırmayı nesne ve alan bağlamında inceliyor.
+
+6
+00:00:23,950 --> 00:00:29,347
+Örneğimizde bir adres nesnesinin ağ maskesi değişiyor ve kapsamı genişliyor.
+
+7
+00:00:29,347 --> 00:00:35,747
+Uzun bir satır listesi içinde kaybolabilecek bu değişikliği, ilgili nesne üzerinden inceleyebiliyoruz.
+
+8
+00:00:35,747 --> 00:00:43,775
+Amaç yalnızca ne değiştiğini göstermek değil; uzmanın bu değişikliğin neden önemli olabileceğini daha kolay değerlendirmesini sağlamak.
+
+9
+00:00:44,958 --> 00:00:48,015
+Şimdi bir bulgunun ayrıntısını açıyoruz.
+
+10
+00:00:47,973 --> 00:00:51,653
+Adres nesnesinin ağ maskesi genişletilmiş.
+
+11
+00:00:51,653 --> 00:00:57,507
+Ekranda önceki ve sonraki değerleri, nesnenin bağlamını ve düzeltme önerisini görüyoruz.
+
+12
+00:00:57,507 --> 00:01:03,417
+Bu kanıt, değişikliğin amaçlı mı yoksa yanlışlıkla mı yapıldığını araştırmak için kullanılabilir.
+
+13
+00:01:03,417 --> 00:01:07,497
+Net Config Guard değişikliği operatör adına geri almıyor.
+
+14
+00:01:07,497 --> 00:01:12,482
+İnceleme ve düzeltme kararı, kurumun yetkili değişiklik sürecinde veriliyor.
+
+15
+00:01:13,658 --> 00:01:17,050
+İlk ekran, operasyon kontrol paneli.
+
+16
+00:01:17,008 --> 00:01:20,788
+Burada tek bir risk sayısından fazlasını görüyoruz.
+
+17
+00:01:20,788 --> 00:01:26,442
+Değişikliklerden doğan risk ile mevcut yapılandırmanın güvenlik duruşu ayrı gösteriliyor.
+
+18
+00:01:26,442 --> 00:01:33,031
+Bu ayrım önemli: bugün hiçbir değişiklik yapılmamış olması, sistemin güvenli olduğu anlamına gelmez.
+
+19
+00:01:33,031 --> 00:01:37,636
+Ekipler bu görünümden incelemeye nereden başlayacaklarını belirleyebilir.
+
+20
+00:01:37,636 --> 00:01:42,286
+Veri bulunmayan cihazlar da sonuç üretilmiş cihazlardan ayrı tutuluyor.
+
+21
+00:01:43,460 --> 00:01:47,142
+Envanter, incelemenin başlangıç noktası.
+
+22
+00:01:47,100 --> 00:01:53,858
+Hangi cihazın hangi üreticiye ait olduğunu ve hangi yapılandırmaların değerlendirileceğini burada takip ediyoruz.
+
+23
+00:01:53,858 --> 00:02:00,214
+Bu laboratuvarda iki güvenlik duvarı, bir yönlendirici ve henüz verisi olmayan yeni bir cihaz var.
+
+24
+00:02:00,214 --> 00:02:04,105
+Farklı sistemler farklı yapılandırma dilleri kullanıyor.
+
+25
+00:02:04,105 --> 00:02:09,636
+Ortak bir envanter, bu çeşitliliği tek bir inceleme akışında yönetmek için ilk adım.
+
+26
+00:02:10,805 --> 00:02:15,346
+Bir cihazı açtığımızda, o cihazın inceleme bağlamını görüyoruz.
+
+27
+00:02:15,303 --> 00:02:20,633
+Değişiklik bulguları, kontrol sonuçları ve risk çıktıları burada bir araya geliyor.
+
+28
+00:02:20,633 --> 00:02:25,428
+Mevcut yapılandırmanın statik denetimi ise ayrı bir değerlendirme.
+
+29
+00:02:25,428 --> 00:02:26,855
+Neden?
+
+30
+00:02:26,855 --> 00:02:32,086
+Çünkü bir değişikliğin oluşturduğu risk ile önceden var olan zayıflık aynı şey değil.
+
+31
+00:02:32,086 --> 00:02:39,121
+Buradaki skorlar, incelemeye yardımcı göstergeler; bir saldırının gerçekleşme olasılığı olarak yorumlanmamalı.
+
+32
+00:02:40,297 --> 00:02:44,803
+Snapshot geçmişi, yapılandırmanın zaman içindeki izini tutuyor.
+
+33
+00:02:44,761 --> 00:02:50,125
+Bir ayarın ne zaman ve nasıl değiştiğini anlamak için önceki duruma ihtiyacımız var.
+
+34
+00:02:50,125 --> 00:02:55,923
+Yalnızca son yapılandırmaya bakarsak, değişikliğin başlangıç noktasını kaçırabiliriz.
+
+35
+00:02:55,923 --> 00:02:59,937
+Bu demoda snapshot'lar manuel olarak yüklenmiş durumda.
+
+36
+00:02:59,937 --> 00:03:03,004
+Canlı cihaz toplaması gösterilmiyor.
+
+37
+00:03:03,004 --> 00:03:09,159
+Geçmiş sürümler, karşılaştırma ve düzeltme sonrası yeniden değerlendirme için temel oluşturuyor.
+
+38
+00:03:10,325 --> 00:03:14,776
+Ham fark ekranında, eklenen ve kaldırılan satırları görüyoruz.
+
+39
+00:03:14,734 --> 00:03:20,409
+Bu görünüm, değişikliği doğrudan yapılandırma üzerinde doğrulamak isteyen uzman için önemli.
+
+40
+00:03:20,409 --> 00:03:25,293
+Ancak bir satırın değişmesi, tek başına güvenlik etkisini açıklamaz.
+
+41
+00:03:25,293 --> 00:03:32,341
+Bir değer değişikliği erişim kapsamını genişletebilir; başka bir değişiklik yalnızca açıklama metnini güncelleyebilir.
+
+42
+00:03:32,341 --> 00:03:37,715
+Bu nedenle ham kanıtı koruyor, sonraki adımda değişikliğin anlamını da inceliyoruz.
+
+43
+00:03:38,884 --> 00:03:44,551
+Bulgular ekranında değişiklikler, güvenlik incelemesine konu olan sonuçlara dönüşüyor.
+
+44
+00:03:44,508 --> 00:03:50,341
+Bu laboratuvarda yönetim erişimi, adres kapsamı ve politika ayarları değiştirilmiş durumda.
+
+45
+00:03:50,341 --> 00:03:54,120
+Bulgular uygulamanın kendi analiz hattından geliyor.
+
+46
+00:03:54,120 --> 00:04:00,108
+Buradaki değer, ekiplerin elle incelemede gözden kaçırabileceği değişiklikleri bir araya getirmek.
+
+47
+00:04:00,108 --> 00:04:08,293
+Sonuçlar desteklenen kuralların kapsamıyla sınırlı; her riski bulduğumuz veya insan değerlendirmesine gerek kalmadığı iddia edilmiyor.
+
+48
+00:04:09,477 --> 00:04:14,564
+Bildirim adayları, bulguyu eyleme dönük incelemeye taşımak için hazırlanıyor.
+
+49
+00:04:14,522 --> 00:04:19,931
+Bir sonuç görmek kadar, hangi konunun takip edilmesi gerektiğini anlamak da önemli.
+
+50
+00:04:19,931 --> 00:04:26,419
+Burada gösterilenler bildirim adayları; dış bir kanala gönderilmiş veya teslim edilmiş mesajlar değil.
+
+51
+00:04:26,419 --> 00:04:29,497
+Demo sırasında dış kanallar kapalı.
+
+52
+00:04:29,497 --> 00:04:35,998
+Bu ayrım sayesinde kullanıcı, analiz sonucu ile bildirimin gerçekten iletilmesini birbirine karıştırmıyor.
+
+53
+00:04:37,161 --> 00:04:41,546
+Statik güvenlik denetimi, tek bir snapshot üzerinde çalışıyor.
+
+54
+00:04:41,503 --> 00:04:47,023
+Burada soru, son değişiklik neydi değil; mevcut ayarlarda hangi zayıflıklar var?
+
+55
+00:04:47,023 --> 00:04:53,602
+Yönetim erişimi veya kayıt tutma gibi ayarlar, uzun süredir aynı kaldıkları hâlde inceleme gerektirebilir.
+
+56
+00:04:53,602 --> 00:04:57,962
+Değişiklik analizini bu yüzden tek başına yeterli görmüyoruz.
+
+57
+00:04:57,962 --> 00:05:04,664
+Statik denetim, desteklenen üretici ve kurallar kapsamında mevcut yapılandırmaya ayrı bir bakış sağlıyor.
+
+58
+00:05:05,833 --> 00:05:11,801
+Risk ekranı, değişiklik bulgularını önem seviyeleri ve ilgili değerlendirmelerle birlikte sunuyor.
+
+59
+00:05:11,758 --> 00:05:17,301
+Amaç, çok sayıda sonuç arasında hangi konunun önce inceleneceğini kolaylaştırmak.
+
+60
+00:05:17,301 --> 00:05:21,583
+Bir risk skoru tek başına karar vermek için yeterli değil.
+
+61
+00:05:21,583 --> 00:05:27,181
+Değişikliğin kanıtı, cihazın rolü ve kurumun erişim ihtiyaçları da değerlendirilmelidir.
+
+62
+00:05:27,181 --> 00:05:32,678
+Bu yüzden risk çıktısını, bulgu ve kontrol bağlamından koparmadan gösteriyoruz.
+
+63
+00:05:33,856 --> 00:05:40,437
+Kontrol değerlendirmeleri, teknik bulguların hangi kontrol tanımlarıyla ilişkili olduğunu görmemizi sağlıyor.
+
+64
+00:05:40,395 --> 00:05:46,048
+Ekipler yalnızca tek tek hataları değil, değerlendirme kapsamını da takip etmek ister.
+
+65
+00:05:46,048 --> 00:05:50,776
+Bu ekran, sonuçların kontrol bazında incelenmesini destekliyor.
+
+66
+00:05:50,776 --> 00:05:57,176
+Ancak bir framework referansı veya başarılı kontrol sonucu, sertifikasyon anlamına gelmez.
+
+67
+00:05:57,176 --> 00:06:03,432
+Kontrol çıktıları incelemeye yardımcıdır; kurumun tüm güvenlik süreçlerini doğruladığı iddia edilmez.
+
+68
+00:06:04,591 --> 00:06:10,124
+Raporlama çalışma alanı, farklı ekranlarda incelenen sonuçları bir araya getiriyor.
+
+69
+00:06:10,081 --> 00:06:15,545
+Bulgular, kontroller ve risk değerlendirmeleri aynı cihaz bağlamında özetleniyor.
+
+70
+00:06:15,545 --> 00:06:22,982
+Teknik inceleme sırasında ayrıntıya ihtiyaç duyarız; sonucu başka bir ekiple paylaşırken ise anlaşılır bir özet gerekir.
+
+71
+00:06:22,982 --> 00:06:28,536
+Bu görünümün amacı, bulgunun önemini anlatırken kanıtını ve kapsamını kaybetmemek.
+
+72
+00:06:28,536 --> 00:06:33,609
+Böylece değerlendirme, yalnızca ekranda görülen bir sayı olarak kalmıyor.
+
+73
+00:06:34,788 --> 00:06:40,120
+Yazdırılabilir cihaz raporu, incelemeyi paylaşılabilir bir belgeye dönüştürüyor.
+
+74
+00:06:40,078 --> 00:06:46,233
+Bu örnek, uygulamanın oluşturduğu HTML raporunun tarayıcı üzerinden PDF'e aktarılmış hâli.
+
+75
+00:06:46,233 --> 00:06:51,363
+Yönetici özeti ve ilgili sonuçlar, cihaz bağlamıyla birlikte gösteriliyor.
+
+76
+00:06:51,363 --> 00:06:56,336
+Bir değişikliğin neden takip edilmesi gerektiğini anlatmak için kullanılabilir.
+
+77
+00:06:56,336 --> 00:07:03,729
+Rapor sentetik laboratuvar verisine dayanıyor; müşteri ortamında doğrulanmış bir güvenlik değerlendirmesi olarak sunulmuyor.
+
+78
+00:07:04,901 --> 00:07:10,992
+Denetim izi, uygulamadaki işlemleri kullanıcı ve zaman bağlamında incelemeye yardımcı oluyor.
+
+79
+00:07:10,949 --> 00:07:17,127
+Operasyonlarda sadece sonucun ne olduğu değil, hangi işlemlerin yapıldığı da araştırılabilir.
+
+80
+00:07:17,127 --> 00:07:20,918
+Burada laboratuvar işlemlerinin kayıtlarını görüyoruz.
+
+81
+00:07:20,918 --> 00:07:27,798
+Bu görünüm, yapılandırmayı canlı cihaz üzerinde kimin değiştirdiğini otomatik olarak kanıtladığı anlamına gelmiyor.
+
+82
+00:07:27,798 --> 00:07:33,742
+Uygulama içindeki işlem izi ile cihazdaki değişikliğin kaynağını ayrı değerlendirmek gerekiyor.
+
+83
+00:07:34,930 --> 00:07:40,206
+Politika ve kontrol kataloğu, değerlendirmelerin dayandığı tanımları görünür kılıyor.
+
+84
+00:07:40,164 --> 00:07:46,642
+Bir bulgunun neden üretildiğini sorgulamak isteyen uzman, ilgili değerlendirme çerçevesini inceleyebilmeli.
+
+85
+00:07:46,642 --> 00:07:49,497
+Katalog bu şeffaflığı destekliyor.
+
+86
+00:07:49,497 --> 00:07:55,463
+Burada listelenen tanımların sayısı, her üreticide aynı kapsamın çalıştığı anlamına gelmez.
+
+87
+00:07:55,463 --> 00:07:59,878
+Parser, kural ve üretici desteği birlikte değerlendirilmelidir.
+
+88
+00:07:59,878 --> 00:08:03,836
+Mevcut kapsam tanıtım deposunda ayrıca belgeleniyor.
+
+89
+00:08:05,014 --> 00:08:08,819
+Bu ekranda Cisco yönlendirici örneğini görüyoruz.
+
+90
+00:08:08,776 --> 00:08:14,887
+Aynı kullanıcı akışı, farklı üreticinin yapılandırması için statik denetim sonuçlarını sunuyor.
+
+91
+00:08:14,887 --> 00:08:21,656
+Üreticiler arasında komutlar ve yapılandırma anlamları değiştiği için, kapsamın ayrıca doğrulanması gerekiyor.
+
+92
+00:08:21,656 --> 00:08:28,302
+Bu örnekte statik denetim gösteriliyor; her üreticide tüm analizlerin eşit düzeyde çalıştığını söylemiyoruz.
+
+93
+00:08:28,302 --> 00:08:35,393
+Ortak platform yaklaşımı, üreticiye özel ayrıntıları yok saymadan ortak bir inceleme deneyimi kurmayı hedefliyor.
+
+94
+00:08:36,540 --> 00:08:39,374
+Son cihazda henüz snapshot yok.
+
+95
+00:08:39,331 --> 00:08:42,465
+Bu nedenle değerlendirme sonucu da yok.
+
+96
+00:08:42,465 --> 00:08:47,996
+Bu durum özellikle önemli: veri bulunmaması, risk bulunmaması demek değildir.
+
+97
+00:08:47,996 --> 00:08:54,017
+Net Config Guard bu cihazı güvenli olarak işaretlemek yerine değerlendirilmemiş olarak gösteriyor.
+
+98
+00:08:54,017 --> 00:08:58,310
+Kullanıcı böylece önce veri toplaması gerektiğini anlayabiliyor.
+
+99
+00:08:58,310 --> 00:09:04,298
+Eksik bilgi ile başarılı analizi ayırmak, anlamlı bir risk görünümünün temel koşullarından biri.
+
+100
+00:09:05,466 --> 00:09:12,281
+Güvenlik ürününün çalıştığını görmek, yapılandırmanın amaçlanan korumayı sürdürdüğünü doğrulamakla aynı şey değil.
+
+101
+00:09:12,239 --> 00:09:18,305
+Net Config Guard bu incelemeyi; değişiklik, kanıt, risk ve rapor üzerinden destekliyor.
+
+102
+00:09:18,305 --> 00:09:23,557
+Bugün desteklenen ağ cihazı ve güvenlik duvarı yapılandırmalarıyla başlıyoruz.
+
+103
+00:09:23,557 --> 00:09:30,426
+Vizyonumuz daha geniş: yapılandırılabilir cihazları, güvenlik ürünlerini ve sistemleri tek panelden yönetmek.
+
+104
+00:09:30,426 --> 00:09:37,306
+Kim, nerede, ne değiştirdi sorusunu yanıtlamak, yöneticiyi anında bilgilendirmek ve kör noktaları azaltmak.
+
+105
+00:09:37,306 --> 00:09:40,361
+Bunlar sonraki geliştirme hedefleri.
+
+106
+00:09:40,361 --> 00:09:43,517
+Proje alpha ve laboratuvar aşamasında.
+
+107
+00:09:43,517 --> 00:09:47,364
+Sizin ortamınızda hangi değişiklik gözden kaçmamalı?
+
+108
+00:09:47,364 --> 00:09:51,211
+Teknik kapsam ve örnek rapor, tanıtım deposunda.
